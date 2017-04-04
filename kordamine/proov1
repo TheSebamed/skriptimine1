@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+#
+for nimi in $(ls)
+do
+if [ -f $nimi ] ; then
+echo "$nimi"
+fi
+done
